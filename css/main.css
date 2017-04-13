@@ -1,0 +1,88 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body {
+  padding: 0;
+  background-color: black;
+}
+
+.navbar-toggle{
+background-color: red;
+
+}
+.icon-bar{
+  background-color: white;
+}
+#navbar-primary .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+#navbar-primary .navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+#navbar-primary .navbar-nav > li > a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+ .nav-headers{
+   font-size: 30px;
+   color: red;
+   font-weight: 900;
+   font-family: 'Kavoon', cursive;
+ }
+
+ .main-text
+ {
+     position: absolute;
+     top: 50px;
+     width: 96.66666666666666%;
+     color: #FFF;
+ }
+ .btn-min-block
+ {
+     min-width: 170px;
+     line-height: 26px;
+ }
+ .btn-clear
+ {
+     color: #FFF;
+     background-color: transparent;
+     border-color: #FFF;
+     margin-right: 15px;
+ }
+ .btn-clear:hover
+ {
+     color: #000;
+     background-color: #FFF;
+ }
+
+
+#bg-img-girl{
+  background: url('./img/5.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#plane { position: absolute; left: -1000px }
+
+.icons{
+font-family: 'Kavoon', cursive;
+color: white;
+font-size: 50px;
+
+}
+.icons2{
+font-family: 'Kavoon', cursive;
+color: white;
+font-size: 20px;
+
+}
+
+.icons:hover{
+  color: crimson;
+}
